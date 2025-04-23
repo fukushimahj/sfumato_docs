@@ -105,26 +105,28 @@ Directory
   ``INCLUDE_RADTR``
   輻射輸送を含める場合
 
+
+Compiling
+----------------
   
+環境設定ファイルを設定後。makeするとコンパイルがはじまる。
+
+.. code-block:: console
+
+  make 
+
+並列でコンパイルしたい場合は(8並列)
+
+.. code-block:: console
+
+  make -j 8
 
 
-Creating recipes
+job 実行
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+各環境によるので、Configs内のhow to doを確認してください。
 
-.. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
