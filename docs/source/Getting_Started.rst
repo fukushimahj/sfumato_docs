@@ -6,9 +6,9 @@ Getting Started
 Download
 ------------
 
-Github$B$N%Z!<%8$NNP?'$N(BCode$B$H$$$&%\%?%s$+$i(BDownload ZIP$B$r2!$9!"$b$7$/$O(B
+Githubのサイトで右上の緑色のCodeのDownload ZIPを押すか、もしくは
 .. code-block:: console
-  git clone
+    git clone
 
 .. code-block:: console
 
