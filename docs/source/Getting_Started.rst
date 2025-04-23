@@ -7,7 +7,9 @@ Download
 ------------
 
 Githubのサイトで右上の緑色のCodeのDownload ZIPを押すか、もしくは
+
 .. code-block:: console
+
     git clone
 
 .. code-block:: console
