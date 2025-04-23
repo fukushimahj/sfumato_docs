@@ -79,7 +79,7 @@ Directory
   INCLUDE_CHEMISTRY    = 1
   INCLUDE_RADTR        = 1
 
-各項目の詳細:
+各項目の詳細(Compiler option除く):
 
   ``SFUMATO_DIR`` 
   計算実行するSFUMATOのdirectoryへの絶対パス
@@ -95,6 +95,15 @@ Directory
 
   ``GENCODE_FLAGS``
   NVIDIAのGPUで実行する際に計算を実行するGPUにあったarchitecturesを指定する。詳細については `こちら <https://qiita.com/k_ikasumipowder/items/1142dadba01b42ac6012>`_ を確認して、計算実行するGPUにあったものを選択する。
+
+  ``INCLUDE_SELF_GRAVITY``
+  自己重力を含める場合
+
+  ``INCLUDE_CHEMISTRY``
+  化学計算を含める場合
+
+  ``INCLUDE_RADTR``
+  輻射輸送を含める場合
 
   
 
