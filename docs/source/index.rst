@@ -18,5 +18,6 @@ Contents
 
 .. toctree::
 
+   Getting_Started
    usage
    api
