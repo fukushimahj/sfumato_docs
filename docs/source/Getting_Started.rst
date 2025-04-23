@@ -79,6 +79,22 @@ Directory
   INCLUDE_CHEMISTRY    = 1
   INCLUDE_RADTR        = 1
 
+各項目の詳細:
+
+  ``SFUMATO_DIR`` 
+  計算実行するSFUMATOのdirectoryへの絶対パス
+  
+  ``SRC_DIR``
+  SRC directoryへの絶対パス。異なるsrcで計算したい場合は変更する
+
+  ``WORK_DIR``
+  計算を実行するdirectoryへの絶対パス
+
+  ``DATA_DIR``
+  データを保存するdirectoryへの絶対パス
+
+
+
   
 
 
