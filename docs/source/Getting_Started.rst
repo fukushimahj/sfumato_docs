@@ -93,7 +93,8 @@ Directory
   ``DATA_DIR``
   データを保存するdirectoryへの絶対パス
 
-
+  ``GENCODE_FLAGS``
+  NVIDIAのGPUで実行する際に計算を実行するGPUにあったarchitecturesを指定する。詳細については `こちら <https://qiita.com/k_ikasumipowder/items/1142dadba01b42ac6012>` を確認して、計算実行するGPUにあったものを選択する。
 
   
 
