@@ -125,7 +125,7 @@ Compiling
 job 実行
 ----------------
 
-各環境によるので、Configs内のhow to doを確認してください。
+各環境によるので、./works/Configs/内のjob用のスクリプト参照してください。
 
 
 
