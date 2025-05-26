@@ -12,3 +12,4 @@ Contents
 .. toctree::
 
    Getting_Started
+   memo
