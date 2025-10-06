@@ -12,4 +12,5 @@ Contents
 .. toctree::
 
    Getting_Started
+   model
    memo
