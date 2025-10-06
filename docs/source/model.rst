@@ -375,3 +375,11 @@ model.hppの設定
   
   #endif
 
+
+各項目の詳細(Compiler option除く):
+  
+  ``MODEL_NAME``
+  モデル名 (logに出力されるだけ, 変更しなくても影響しない)
+
+
+
